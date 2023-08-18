@@ -77,6 +77,9 @@ on init
     chown root system /sys/fs/cgroup/memory/bg/tasks
     write /sys/kernel/icnss/wpss_boot 1
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
+    
+    # Ensure we have proper max brightness for HBM
+    write /sys/kernel/oplus_display/max_brightness 4095
 
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
