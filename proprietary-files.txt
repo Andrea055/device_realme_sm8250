@@ -546,17 +546,6 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut0
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut1
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut10
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut11
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut12
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut13
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut14
-odm/etc/camera/pf/PerfectColorSet/normal/colorLut15
-odm/etc/camera/settings_fdc_lite.txt
-odm/etc/camera/settings_fdc.txt
-odm/etc/camera/singleblur/license_release.license
 odm/etc/camera/sticker/material/animoji/data.zip
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
 odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
@@ -584,8 +573,6 @@ odm/etc/camera/tonemap/tonemap_lut_6
 odm/etc/camera/tonemap/tonemap_lut_7
 odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
-odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
-odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
 odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 odm/etc/camera/anc_cl_kernel.cache
 odm/etc/camera/anc_cl_kernel_ins.cache
@@ -622,7 +609,6 @@ odm/lib64/camera/components/com.qti.node.remosaic.so
 odm/lib64/camera/components/com.qti.stats.haf.so
 odm/lib64/camera/components/com.qti.stats.pdlib.so
 odm/lib64/camera/components/libipebpsstriping.so
-odm/lib64/jcos_nq_client.so
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
@@ -636,7 +622,6 @@ odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
-odm/lib64/libCNamaSDK_vendor.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
@@ -644,14 +629,12 @@ odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
 odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyJni.so
-odm/lib64/libFaceBeautyJni.so
 odm/lib64/libFaceBeautyPICap.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFaceWhiten.so
 odm/lib64/libFilterWrapper.so
 odm/lib64/libHdrVideo.so
-odm/lib64/libNamaWrapper.so
 odm/lib64/libNightVideo.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPLUS_SCPortrait.so
@@ -665,8 +648,6 @@ odm/lib64/libQnnHtpAltPrepStub.so
 odm/lib64/libQnnHtpStub.so
 odm/lib64/libRedeyeReduce.so
 odm/lib64/libSEC.HybridHDR.so
-odm/lib64/libsharebuffer_impl.so
-odm/lib64/libsharebuffer.so
 odm/lib64/libSNPE.so
 odm/lib64/libSNPE_G.so
 odm/lib64/libSonyIMX471RmscLibrary.so
@@ -686,7 +667,6 @@ odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
 odm/lib64/libXDocProcessSDK.so
 odm/lib64/libYTCommon.so
-odm/lib64/ls_nq_client.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaiboost.so
 odm/lib64/libaiboost_hexagon.so
@@ -750,15 +730,12 @@ odm/lib64/libcalculator_domains.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
-odm/lib64/libchrome.so
 odm/lib64/libcom.oplus.calidatacontainer.so
-odm/lib64/lib_cryptoeng_api.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdav1d.so.4
 odm/lib64/libeffect_custom.so
 odm/lib64/libfastov_dsp.so
 odm/lib64/libhci_face_camera_api.so
-odm/lib64/libTeeClient.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
 odm/lib64/libimgClarityEvaluate.so
@@ -767,7 +744,6 @@ odm/lib64/libmotionblur.so
 odm/lib64/libmpbase.so
 odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
-odm/lib64/libOPAlgoCamFaceBeautyCap.so
 odm/lib64/libormshalclient.so
 odm/lib64/libosie_process.so
 odm/lib64/libosie_stub.so
@@ -826,7 +802,6 @@ vendor/lib64/camera/components/com.qti.stats.afwrapper.so
 vendor/lib64/camera/components/com.qti.stats.asd.so
 vendor/lib64/camera/components/com.qti.stats.awb.so
 vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
-vendor/lib64/camera/components/com.qti.stats.haf.so
 vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
