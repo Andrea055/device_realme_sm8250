@@ -5,9 +5,6 @@
 -->
 <resources>
 
-    <!-- Power Efficient Workqueue sysfs node path -->
-    <string name="node_power_efficient_workqueue_switch" translatable="false">/sys/module/workqueue/parameters/power_efficient</string>
-
     <!-- Anti-Flicker sysfs node path -->
     <string name="node_antiflicker_switch" translatable="false">/sys/kernel/oplus_display/dimlayer_bl_en</string>
     <string name="node_antiflicker_switch_true">1</string>
@@ -29,12 +26,6 @@
 
     <!-- Max Brightness sysfs node path-->
     <string name="node_max_brightness_preference" translatable="false">/sys/kernel/oplus_display/max_brightness</string>
-
-    <!-- FSync sysfs node path-->
-    <string name="node_fsync_switch" translatable="false">/sys/module/sync/parameters/fsync_enabled</string>
-
-    <!-- USB 2.0 Force fastcharge sysfs node path -->
-    <string name="node_usb2_fast_charge_switch" translatable="false">/sys/kernel/fast_charge/force_fast_charge</string>
 
     <!-- USB-OTG sysfs node path -->
     <string name="node_usb_otg_switch" translatable="false">/sys/devices/virtual/oplus_chg/usb/otg_switch</string>
