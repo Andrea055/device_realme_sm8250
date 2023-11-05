@@ -62,7 +62,6 @@ PRODUCT_PACKAGES += \
     libdynproc \
     libeffectproxy \
     libhdmiedid \
-    libhdmipassthru \
     libhfp \
     libldnhncr \
     libqcompostprocbundle \
@@ -116,9 +115,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.bluetooth.default
 
-PRODUCT_PACKAGES += \
-    libbthost_if
-
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2400
@@ -145,7 +141,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Dolby 
-$(call inherit-product, hardware/dolby/dolby.mk)
+#$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Display
 PRODUCT_PACKAGES += \
@@ -168,7 +164,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
@@ -183,7 +178,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
     frameworks/native/data/etc/android.software.opengles.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
-    
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/display_id_4630946950956839809.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946950956839809.xml \
     $(LOCAL_PATH)/display/display_id_4630947194340276609.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947194340276609.xml
@@ -217,7 +212,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.gnss@2.1-impl-qti \
     android.hardware.gnss@2.1-service-qti
 
 PRODUCT_COPY_FILES += \
@@ -342,7 +336,7 @@ PRODUCT_PACKAGES += \
 
 # DeviceExtras
 PRODUCT_PACKAGES += \
-    DeviceExtras
+    OPlusExtras
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
@@ -502,10 +496,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libwpa_client \
     wpa_supplicant.conf
-
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay \
-    WifiOverlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
