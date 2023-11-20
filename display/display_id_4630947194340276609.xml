@@ -7,7 +7,7 @@
             <nits>2.0</nits>
         </point>
         <point>
-            <value>0.4998778998778</value> <!-- 2047/4095 -->
+            <value>0.7</value> <!-- 2047/4095 -->
             <nits>500.0</nits>
         </point>
         <point>
@@ -16,7 +16,7 @@
         </point>
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.4998778998778</transitionPoint> <!-- 2047/4095 -->
+        <transitionPoint>0.7</transitionPoint> <!-- 2047/4095 -->
         <minimumLux>30000</minimumLux>
         <timing>
             <!-- allow for 5 minutes out of every 30 minutes -->
