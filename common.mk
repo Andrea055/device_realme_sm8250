@@ -121,6 +121,13 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2400
 
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := kona
+
+# Blur
+TARGET_USES_BLUR := true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -273,8 +280,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.oplus
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.health-service.default
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
