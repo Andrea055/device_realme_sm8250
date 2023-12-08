@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Dolby 
-$(call inherit-product, hardware/dolby/dolby.mk)
+#$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Display
 PRODUCT_PACKAGES += \
